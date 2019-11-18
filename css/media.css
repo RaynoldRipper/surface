@@ -93,6 +93,16 @@
     background-position-x: center;
     background-position-y: 102px;
   }
+  .header{
+    background: url(../images/football_767.jpg) no-repeat;
+    background-size: cover;  
+    background-position: center;
+  }
+  .footer{
+    background: url(../images/game_767.jpg) no-repeat;
+    background-size: cover;  
+    background-position: center;
+  }
 }
 
 @media (max-width:960px){
