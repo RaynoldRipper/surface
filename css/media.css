@@ -87,16 +87,6 @@
     top: 96px;
     transform: translateX(50%);
   }
-  .header{
-    background: url(../images/football_767.jpg) no-repeat;
-    background-size: cover;  
-    background-position: center;
-  }
-  .footer{
-    background: url(../images/game_767.jpg) no-repeat;
-    background-size: cover;  
-    background-position: center;
-  }
 }
 
 @media screen and (max-width:960px){
