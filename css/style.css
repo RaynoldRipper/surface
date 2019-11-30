@@ -35,11 +35,12 @@ body{
   display: block;
 }
 
-.header-tittle{
+.header-title{
   max-width: 1430px;
   margin: auto;
   margin-top: 295px;
   margin-bottom: 223px;
+  padding: 0 15px;
   text-align: left;
   color: #ffffff;
   font-size: 90px;
@@ -47,7 +48,7 @@ body{
   font-weight: bold;
 }
 
-.header-tittle span{
+.header-title .text-rigth{
   display: block;
   text-align: right;
 }
@@ -80,31 +81,26 @@ body{
 
 .button-link{
   color: #ffffff;
-  display: block;
+  align-items: center;
+  display: flex;
+  padding-left: 50px;
   box-sizing: border-box;
   height: 100%;
   text-decoration: none;
-  padding-left: 105px;
   outline: none;
-  padding-top: 20px;
-  padding-bottom: 18px;
 }
 
 .icon-apple{
-  position: absolute;
-  display: block;
+  display: block;   
   width: 45px;
   height: 45px;
-  left: 40px;
-  top: 13px;
+  padding-right: 25px;
 }
 .icon-android{
-  position: absolute;
   display: block;
   width: 45px;
   height: 45px;
-  left: 40px;
-  top: 17px;
+  padding-right: 25px;
 }
 
 .download{
@@ -131,7 +127,7 @@ body{
   top: 30px;
 }
 
-.athlets-tittle-wrapper{
+.athlets-title-wrapper{
   padding-left: 51%;
   padding-bottom: 43px;
 }
@@ -158,7 +154,7 @@ body{
   color: #ffffff;
 }
 
-.premission-item .tittle-3{
+.premission-item .premission-title{
   display: flex;
   align-items: flex-start;
 }
@@ -204,7 +200,7 @@ body{
   top: 30px;
 }
 
-.players-tittle-wrapper{
+.players-title-wrapper{
   padding-left: 9.6%;
   padding-bottom: 43px;
 }
@@ -247,6 +243,11 @@ body{
 }
 .advantage-image{
   flex-basis: 50%;
+}
+
+.advantage-image .img{
+  width: 100%;
+  height: 100%;
 }
 
 .advantage-text{
@@ -295,12 +296,12 @@ body{
   background-color: #8f7bc8;
 }
 
-.advantage-text .tittle-4{
+.advantage-text .advantage-title{
   margin-bottom: 60px;
 }
 
-.advantage-text .text-2{
-  margin-top: 60px;
+.advantage-text .advantage-text-size{
+  margin: 0;
   max-width: 650px;
 }
 
@@ -320,48 +321,47 @@ body{
   padding-bottom: 52px;
 }
 .footer-logo{
-  display: block;
-  position: absolute;
-  left: 0;
+  display: flex;
+  margin-right: 37px;
   border-radius: 28px;
   width: 130px;
   height: 135px;
   background: linear-gradient(#7755d7, #50379b);
 }
-.footer-logo img{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-}
-.footer-title{
-  position: relative;
-  padding-bottom: 165px;
-  padding-left: 180px;
-  max-width: 670px;
+
+.footer-logo .logo-img{
   margin: auto;
+  width:105px; 
+  height:87px;
 }
 
-.footer-title .tittle-1, .text-3{
+.footer-title{
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 165px;
+  padding: 0 15px;
+}
+
+.footer-title .footer-title-size, .footer-sub-title{
   margin: 0;
 }
 
 .footer .device-links{
-  padding-bottom: 230px;
+  margin-bottom: 230px;
 }
 
 
-/* Tittles and text */
+/* titles and text */
 
-.tittle-1{
+.footer-title-size{
   font-size: 80px;
   color: #ffffff;
   text-transform: uppercase;
 
 }
 
-.tittle-2{
+.section-title{
   font-size: 80px;
   line-height: 68px;
   margin: 0;
@@ -371,7 +371,7 @@ body{
   text-transform: uppercase;
 }
 
-.tittle-3{
+.premission-title{
   font-size: 36px;
   line-height: 34px;
   font-weight: bold;
@@ -380,7 +380,7 @@ body{
   text-transform: uppercase;
 }
 
-.tittle-4{
+.advantage-title{
   font-size: 80px;
   line-height: 68px;
   margin: 0;
@@ -390,19 +390,19 @@ body{
   text-transform: uppercase;
 }
 
-.text-1{
+.premission-text{
   max-width: 710px;
   font-size: 20px;
   line-height: 28px;
 }
 
-.text-2{
+.advantage-text-size{
   font-size: 24px;
   line-height: 28px;
   z-index: 1;
 }
 
-.text-3{
+.footer-sub-title{
   color: #9173e6;
   font-size: 30px;
   line-height: 34px;

@@ -17,7 +17,7 @@
   .advantage-text{
     max-width: 50%;
   }
-  .advantage-item .tittle-4 {
+  .advantage-item .advantage-title {
     display: flex;
     align-items: center;
   }
@@ -95,13 +95,13 @@
     padding-top: 31px;
     padding-bottom: 91px;
   }
-  .header-tittle{
+  .header-title{
     margin-top: 180px;
     margin-bottom: 310px;
     max-width: 600px;
   }
 
-  .header-tittle span{
+  .header-title .text-rigth{
     text-align: left;
     padding-left: 16%;
   }
@@ -112,7 +112,7 @@
     padding-top: 87px;
   }
 
-  .athlets-tittle-wrapper{
+  .athlets-title-wrapper{
     padding-left: 42%;
     padding-bottom: 30px;
   }
@@ -129,7 +129,7 @@
   .players{
     padding-top: 87px;
   }
-  .players-tittle-wrapper {
+  .players-title-wrapper {
     padding-left: 4.3%;
     padding-bottom: 30px;
   }
@@ -174,10 +174,7 @@
     height: 116px;
     background-color: #5e42b0;
   }
-  .advantage-text .text-2 {
-      margin-top: 40px;
-  }
-  .advantage-text .tittle-2 {
+  .advantage-text .section-title {
       margin-bottom: 0;
   }
 
@@ -187,37 +184,35 @@
     padding-bottom: 23px;
   }
   .footer-title {
-    position: relative;
-    padding: 0;
-    padding-bottom: 288px; 
-    text-align: center;
+    display: block;
     margin: auto;
+    text-align: center;
+    margin-bottom: 288px; 
   }
 
   .footer-logo {
-    display: block;
-    position: relative;
+    margin-bottom: 41px;
     margin: auto;
     margin-bottom: 41px;
   }
 
   .footer .device-links {
-    padding-bottom: 54px;
+    margin-bottom: 54px;
   } 
   /* Titles and texts */
 
-  .header-tittle {
+  .header-title {
     font-size: 64px;
   }
 
-  .tittle-1{
+  .footer-title-size{
     font-size: 80px;
     color: #ffffff;
     text-transform: uppercase;
 
   }
 
-  .tittle-2{
+  .section-title{
     font-size: 80px;
     line-height: 68px;
     margin: 0;
@@ -227,7 +222,7 @@
     text-transform: uppercase;
   }
 
-  .tittle-3{
+  .premission-title{
     font-size: 32px;
     line-height: 34px;
     font-weight: bold;
@@ -236,19 +231,19 @@
     text-transform: uppercase;
   }
 
-  .text-1{
+  .premission-text{
     max-width: 710px;
     font-size: 16px;
     line-height: 28px;
   }
 
-  .text-2{
+  .advantage-text-size{
     font-size: 24px;
     line-height: 28px;
     
   }
 
-  .text-3{
+  .footer-sub-title{
     font-size: 30px;
   }
 }
@@ -259,7 +254,7 @@
     padding-top: 35px;
     padding-bottom: 84px;
   }
-  .header-tittle {
+  .header-title {
     font-size: 28px;
     max-width: 260px;
     margin-top: 136px;
@@ -270,48 +265,32 @@
     height: 35px;
     margin: 7px;
   }
-  .button-link {
-    color: #ffffff;
-    display: block;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    padding: 0;
-    padding-top: 10px;
-    padding-left: 29.28%;
+
+  .button-link{
+    padding-left: 80px;
   }
 
   .button-link .icon-apple, .icon-android{
-    left: 29.28%;
     width: 22px;
     height: 24px;
-    top: 7px;
-  }
-
-  .button-link .icon-apple{
-    top: 6px;
+    padding-right: 15px;
   }
 
   .download{
     display: block;
-    position: absolute;
     top: 8px;
     font-size: 8px;
-    transform: translateX(30px);
   }
   .market{
-    position: absolute;
-    top: 18px;
     display: block;
     font-size: 8px;
-    transform: translateX(30px);
   }
 
   /* Athlets */
   .athlets{
     padding-top: 25px;
   }
-  .athlets-tittle-wrapper{
+  .athlets-title-wrapper{
     padding-left: 20px;
     padding-bottom: 245px;
   }
@@ -339,7 +318,7 @@
  .players{
   padding-top: 25px;
  }
- .players-tittle-wrapper {
+ .players-title-wrapper {
   padding-left: 20px;
   padding-bottom: 235px;
   
@@ -374,7 +353,7 @@
     margin-bottom: 25px;
   }
 
-  .advantage-text .tittle-4 {
+  .advantage-text .advantage-title {
     margin-bottom: 25px;
   }
 
@@ -390,18 +369,13 @@
     padding-top: 33px;
     padding-bottom: 77px;
   }
-  .advantage-text .text-2 {
-    margin-top: 25px;
-    margin-bottom: 0;
-  }
-
   /* Footer */
   .footer-wrapper{
     padding-top: 100px;
     padding-bottom: 10px;
   }
   .footer-title {
-    padding-bottom: 75px;
+    margin-bottom: 75px;
   }
 
   .footer .logo {
@@ -412,27 +386,25 @@
   .footer-logo {
     width: 72px;
     height: 74px;
-    display: block;
-    position: relative;
     margin: auto;
     margin-bottom: 41px;
     border-radius: 12px;
   }
-  .footer-logo img{
-    width: 60;
+  .footer-logo .logo-img{
+    width: 60px;
     height: 40px;
     border-radius: 12px;
   }
   /* Titles and texts */
 
-  .tittle-1{
+  .footer-title-size{
     font-size: 32px;
     color: #ffffff;
     text-transform: uppercase;
 
   }
 
-  .tittle-2{
+  .section-title{
     font-size: 50px;
     line-height: 60px;
     margin: 0;
@@ -442,7 +414,7 @@
     text-transform: uppercase;
   }
 
-  .tittle-3{
+  .premission-title{
     font-size: 23px;
     line-height: 34px;
     font-weight: bold;
@@ -451,24 +423,24 @@
     text-transform: uppercase;
   }
 
-  .tittle-4{
+  .advantage-title{
     font-size: 28px;
     line-height: 30px;
   }
 
-  .text-1{
+  .premission-text{
     max-width: 710px;
     font-size: 15px;
     line-height: 24px;
   }
 
-  .text-2{
+  .advantage-text-size{
     font-size: 16px;
     line-height: 28px;
     
   }
 
-  .text-3{
+  .footer-sub-title{
     font-size: 14px;
   }
   .number{
